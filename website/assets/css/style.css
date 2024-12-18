@@ -1,3 +1,29 @@
 body{
-    background: #BDBDBD;
+    background: #28282B;
+}
+
+nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#image-header {
+    background-image: url('../img/bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 60vh;
+}
+
+#image-header h1 {
+    position:relative;
+    top:60px;
+    font-size:100px;
+    font-weight: bold;
+}
+
+#image-header h6 {
+    position:relative;
+    top:100px;
+    font-size:60px;
+    font-weight:bold;
 }
